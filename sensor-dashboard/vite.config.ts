@@ -15,8 +15,8 @@ export default defineConfig({
 		rollupOptions: {
 			output: {
 				manualChunks: {
-					// Split vendor code into separate chunks
-					vendor: ['@unovis/svelte', '@unovis/ts']
+					// Split vendor code into separate chunks - only include @unovis/svelte
+					vendor: ['@unovis/svelte']
 				}
 			}
 		},
