@@ -94,7 +94,7 @@ jobs:
         cd ..
         
     - name: Upload release package
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: iaq-dashboard-release
         path: iaq-dashboard-release.zip
